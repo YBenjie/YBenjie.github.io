@@ -1894,7 +1894,7 @@ footer .copy-right {
 /*回到顶部按钮样式*/
 .top-scroll {
     display: none;
-    position: fixd
+    position: fixd;
     right: 35px;
     bottom: 15px;
     padding-top: 15px;
