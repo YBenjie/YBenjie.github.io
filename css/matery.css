@@ -1894,12 +1894,12 @@ footer .copy-right {
 /*回到顶部按钮样式*/
 .top-scroll {
     display: none;
-    position: relative;
-    right: 15px;
+    position: fixd
+    right: 35px;
     bottom: 15px;
     padding-top: 15px;
     margin-bottom: 0;
-    z-index: 993;
+    z-index: 985;
 }
 
 .top-scroll .btn-floating {
