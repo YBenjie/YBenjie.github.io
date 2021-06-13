@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hi! YBenjie</title>
+  
+  <subtitle>Hello</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-06-12T16:28:19.800Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>YBenjie</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小破屋</title>
+    <link href="http://example.com/2021/06/12/%E5%B0%8F%E7%A0%B4%E5%B1%8B/"/>
+    <id>http://example.com/2021/06/12/%E5%B0%8F%E7%A0%B4%E5%B1%8B/</id>
+    <published>2021-06-12T15:00:25.948Z</published>
+    <updated>2021-06-12T16:28:19.800Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;我每次写说说的时候心里总是很慌，因为又有一些奇怪的事情发生在我身上，我无法避免这些事，却总是逃脱不掉，听起来是不是很矛盾呢？&lt;br&gt;三个星期前，学校南门的房屋开始拆迁，我不得不搬到前面的一栋房子里。要经过巷子才可以进去，巷子里很黑。房屋很小，房顶是泡沫所做，但并不会漏水。床</summary>
+        
+      
+    
+    
+    
+    <category term="恐怖" scheme="http://example.com/categories/%E6%81%90%E6%80%96/"/>
+    
+    
+    <category term="悬疑 惊悚" scheme="http://example.com/tags/%E6%82%AC%E7%96%91-%E6%83%8A%E6%82%9A/"/>
+    
+    <category term="犯罪" scheme="http://example.com/tags/%E7%8A%AF%E7%BD%AA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>蚂蚁</title>
+    <link href="http://example.com/2021/06/10/%E8%9A%82%E8%9A%81%E4%B8%8D%E4%BC%9A%E4%BF%9D%E6%8C%81%E7%BC%84%E9%BB%98/"/>
+    <id>http://example.com/2021/06/10/%E8%9A%82%E8%9A%81%E4%B8%8D%E4%BC%9A%E4%BF%9D%E6%8C%81%E7%BC%84%E9%BB%98/</id>
+    <published>2021-06-10T03:10:27.711Z</published>
+    <updated>2021-06-12T15:25:11.241Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;我太爷爷的名字叫郭中庸，这是我在族谱上查到的东西，正所谓成也中庸败也中庸，太爷爷当&lt;br&gt;时能做上张之洞的门生并且受到重用，其实不完全因为才气，清廷晚年的时候对精通八股的死读书的&lt;br&gt;读书人其实不怎么看重，这从后来的戊戌变法到经常的商人状元张骞都可以看的出来，那个时候，已&lt;br&gt;经看个人的本事了。死读书已经不吃香。</summary>
+    
+    
+    
+    <category term="Markdown" scheme="http://example.com/categories/Markdown/"/>
+    
+    
+    <category term="Typora" scheme="http://example.com/tags/Typora/"/>
+    
+    <category term="Markdown" scheme="http://example.com/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>武则天的秘密</title>
+    <link href="http://example.com/2021/06/09/%E5%91%86%E5%91%86/"/>
+    <id>http://example.com/2021/06/09/%E5%91%86%E5%91%86/</id>
+    <published>2021-06-09T13:13:26.000Z</published>
+    <updated>2021-06-12T08:00:09.134Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;武则天明堂玉佛头一夕被盗，古董名家许一城因佛头案被判死刑。六十年后，许氏后人许愿凭祖传鉴定技艺，冒死重查佛头案，不但要追回国宝，更要洗刷许家几代人的冤屈。一件国宝，揭秘一个家族千年护宝忠魂。一个突然到来的访客，把平凡的古董店店主许愿带进了一个做梦都想不到的阴谋中，一件坊间传</summary>
+        
+      
+    
+    
+    
+    
+    <category term="推理  悬疑  惊悚" scheme="http://example.com/tags/%E6%8E%A8%E7%90%86-%E6%82%AC%E7%96%91-%E6%83%8A%E6%82%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2021/06/09/hello-world/"/>
+    <id>http://example.com/2021/06/09/hello-world/</id>
+    <published>2021-06-09T12:31:16.496Z</published>
+    <updated>2021-06-09T12:31:16.496Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
