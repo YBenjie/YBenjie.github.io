@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="小破屋, 111111">
+    <meta name="keywords" content="111111">
     <meta name="description" content="以梦为马，不负韶华">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>小破屋 | Hi! YBenjie</title>
+    <title>Hi! YBenjie</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -269,12 +269,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">小破屋</h1>
+                    <h1 class="description center-align post-title"></h1>
                 </div>
             </div>
         </div>
@@ -284,39 +284,116 @@
 
 
 
-<main class="container content">
+<main class="post-container content">
 
     
-    <!-- 文章内容详情 -->
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/%E6%82%AC%E7%96%91-%E6%83%8A%E6%82%9A/">
-                                <span class="chip bg-color">悬疑 惊悚</span>
-                            </a>
-                        
-                            <a href="/tags/%E7%8A%AF%E7%BD%AA/">
-                                <span class="chip bg-color">犯罪</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fas fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/%E6%81%90%E6%80%96/" class="post-category">
-                                恐怖
-                            </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -325,7 +402,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-06-12
+                    2021-06-28
                 </div>
                 
 
@@ -361,7 +438,9 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>我每次写说说的时候心里总是很慌，因为又有一些奇怪的事情发生在我身上，我无法避免这些事，却总是逃脱不掉，听起来是不是很矛盾呢？<br>三个星期前，学校南门的房屋开始拆迁，我不得不搬到前面的一栋房子里。要经过巷子才可以进去，巷子里很黑。房屋很小，房顶是泡沫所做，但并不会漏水。床有弹簧，因而睡起来很舒服，灯泡很亮，周围环境很静，可以很好的学习。<br> 住了大概有五天左右，我发觉电灯泡会时亮时暗，在外面回传来布谷鸟的声音，声音时近时远，房顶会有哒哒的声音，就像脚步声一样，更可怕的是，床底竟然有时能听到人的呼吸声。我每一次都会往床底下看，却什么也没有。我会把电灯泡卸了，装上，然而依旧如此，我仔细聆听布谷鸟和房顶上的哒哒生声，但是根本听不见。我开始意识到这一切很可能是幻想，来自高考的紧张压力。或者是我的梦游又严重了。<br> 又过了三天，有一户人家搬进了隔壁，她们是一对老人，还有他们的三个孙子孙女，老人很和蔼，经常招呼我，我每次中午回去，他们总会拿水果给我吃，而我吃完之后，又总会甜美的睡上一觉，醒来之后，他们总是在和蔼的看着我，然后我们相视一笑。最小的小孩只有两岁，但是很吵，我不知道如此小的小孩竟有如此大的声音，以至于我中午经常会被惊醒。我有时注意到，小孩子的身上有黑色的印记。两个女孩的脖子上也有奇怪的图案，他们看我的眼神？总是让我毛骨悚然。老人把原先很脏的院子打扫了一遍，因为树毛太多，所以她经常泼水，地上因此湿漉漉的，所以很不舒服。但还好，这几天的树毛明显少了许多，甚至不见了踪影。<br> 在2019五月二十一的晚上，我独自回来，走到巷子口时，一阵凉风吹过，我哆嗦了一下，打开了手机电灯，地上依旧很湿，甚至有小水坑，我再一次听见了布谷鸟的声音，声音但夹杂了乌鸦的声音，我好奇又害怕，赶紧打开房门，但是灯已经打不开了，它坏了，就在今晚。我处在黑暗之中，坐在床上有些不知所措，我听到了房顶上的哒哒声，声音有点像钻子的声音，我没有在意，但是又听到了来自隔壁房间里的呼吸声，那是呼噜声吧，我想。我梦到了可怕的东西，在半夜，我惊醒了，房门是露出了一点缝，我不以为然，但是，对面的墙上出现了一个弹珠大的小孔，因为它透出了亮光，所以能看见。小孔一会儿亮一会不亮，像是有人将其挡上又拿开了一样，当它再一次不亮时，我打开电灯朝前射去，小孔再一次亮了，我关上灯，小孔再一次不亮了。<br> 夜晚的月亮很亮，我没有胆子在那个房间里继续睡觉了，我走出房门。听见了乌鸦的嘶鸣声，声音是隔壁房传出来的。隔壁房间的门也露出了一道缝，我顺势推开了门，眼前的景象让我彻底崩溃。<br> 地上湿漉漉的，空气中弥漫着恶心的味道，到处是红色。桌子上有一个带毛和辫子的皮球，地上有捆在一起的绳子，果然，那里还有很多弹珠，有几个乌鸦被我惊到了，叼着几颗弹珠飞走了。我感觉后面有人，猛地转了个头，没有人。老人和孩子不见了，我所处的房子正是他们的房间，然而我只看见了一些似乎很常见的东西，也许我的眼睛依然睡眼朦胧。<br> 没有办法，我待不下去了，于是我回到了屋里，屋里很黑，那个小孔不亮了，我走进看了看，捡起了一根细长的棍子，朝小孔用力的插了进去，我听见了呲呲的声音，我把棍子抽了回来，原本白的棍子已经变了颜色，这时，我又听到了床底下的呼吸声和房顶上的哒哒声。“他妈的，到底谁在那里”我生气的叫喊。没有人回应。我有些无奈。<br> 我再一次躺在了床上，我使劲的翻了个身，看着床底下，但是没有什么可奇怪的，跟原先不一样的是多了皮球和弹珠，还有那一捆绳子，我笑了。又朝向那个小孔，它一直在亮着。<br> 我终于可以安稳了，从那以后，我再也没有听到那些个奇怪的声音了。电灯泡也照常亮着，但我总会在梦中梦到弹珠，绳子和皮球。<br> 但我？我真的承认，我有很严重的梦游症。</p>
+                <pre><code>                    黑狗
+</code></pre>
+<p>我叫尤本杰，现在是2020年5月4日晚10：20分。今天是一个阴冷并且风很大的一天，刚开始远处的天空中还泛着几丝微光，尽管风很大。但是没过一会儿，南边和北边的的天上布满了乌云。“看来今天是要下雨了”。直到晚上，雨终究还是没有下来，不过风依旧吹得树叶胡乱的敲打 不管怎么说，总会令人产生一种抑郁感。各位都知道，邻居家有一只长的像@朱天润 @张雨洁 @陈兴兴 @张平 @葛佳鑫 狐狸的狗，他身子较长，身上的黄毛和黑毛混合浓密而长，看上去真的很像狐狸，它平时很喜欢和我们在一起玩。不过今天它似乎并不开心，因为它的一些异常行为引发了我的注意。<br> 吃完晚饭，我像往常一样拿着手机坐在屋里的沙发上刷着抖音，我比较喜欢看恐怖类型的视频 所以我的视频大都是比较恐怖的 。我正看着《来了》这部恐怖片，邻居家的狗突然闯了进来，我起初并没有在意 ，只是象征性的抚摸了他一会，于是接着看《来了》，不过，它并没有立刻离开，只是在我的旁边不停的喘息和小声的哼叫，嘴巴里面充满着恶心的怪味，“不会又吃粑粑了？”而且不停的转悠朝我摇尾巴，它似乎在告诉我什么讯息，这引起了我的注意。“它可能想要我们带它回家”坐在旁边的弟弟说。我和弟弟起身唤它走出了门外，当时天很黑，不过我还是可以清楚的看到狗并没有完全跟着我们，它在半路又再一次返回到了我的家里，我和弟弟很疑惑，我们又返回了家中，可是并没有发现狗的踪迹。“我刚刚看见它进屋了，怎么突然消失不见了呢”，因为刚刚看恐怖视频的缘故，我难免有些慌乱。“可能它家的房门锁上了，我们去喊门吧”弟弟对我说。我和弟弟小心翼翼（天黑的原因）的朝邻居家走去。邻居家的门是虚掩着的，就算是小狗也可以轻易地把门推开。“有人吗”我叫喊着。因为我看到了二楼的灯亮着，所以比较肯定的喊了出来。并没有人回应，我再次大喊了一声。依旧无人应答。在空气中我隐约闻到了一股血腥味 ，不过那可能是鱼的腥味（昨天爷爷下河摸了鱼），我们打开了楼的大门，一楼的大厅很黑，突然像是有人从我们的背后走过，我隐约觉得我的肩膀被什么东西擦到了。“你家狗回来了吗呢”我下意识的问道。没有人回应。“你跟谁说话啊” 弟弟的话音刚落，楼的大门猛地被关上了，我吓了一跳，几乎要叫出来，弟弟也紧握住我的手 我明显感觉到弟弟的手心在留着汗。”别怕，外面的风很大，被风刮的， 我们上楼去看看吧”我拉着弟弟上了楼，到了二楼，刚开始是客厅，左右两边各有一个小房间，不过门都是紧锁的，只有中间的房间的灯是亮着的，门也是虚掩着的。我走上前去打开了房门，屋里的东西特别乱 。地上有一大堆鲜红的液体，没错，血腥味看来是从这传来的。在床的另一侧躺着一个人，我很清楚的看见她躺在那儿，一动不动，看来是死了，她旁边还躺着另一个人，是她的女儿，不过她女儿的两个眼珠子没了 。看上去异常惊悚，我无法想象我是如何看的这么仔细的，也无法想象我究竟为什么还是如此镇定，就像我看恐怖视频那样淡定，可是这并不是恐怖视频，这是赤裸裸的谋杀案。<br> 我自己一个人在那呆呆的看着，我手边的弟弟此时已经不在我的身边，我这才反应过来，我的弟弟已经失踪不见了，至于什么时候消失的，我不得而知。可能是上楼的时候？就在此时我听到了上楼的声音，那肯定是我的弟弟。我转过头去，朝着楼梯的尽头看去，果然，那就是我的弟弟。他手里拿着菜刀一样的东西，朝我走过来。“你拿着菜刀干什么”我询问到。“很显然，这里发生了杀人案”他说。“赶紧报警，我们尽量要保留现场的证据” “那恐怕是不可能的了，因为他还在这栋楼里里。” “他~~ ~~是凶手？～～～，在哪里？”我的心就要跳出来了。 “他就在你旁边啊！～”弟弟说。</p>
 
                 
             </div>
@@ -388,7 +467,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2021/06/12/%E5%B0%8F%E7%A0%B4%E5%B1%8B/">http://example.com/2021/06/12/%E5%B0%8F%E7%A0%B4%E5%B1%8B/</a>
+                    <a href="http://example.com/2021/06/28/%E9%BB%91%E7%8B%97%EF%BC%81/">http://example.com/2021/06/28/%E9%BB%91%E7%8B%97%EF%BC%81/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -425,15 +504,7 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/%E6%82%AC%E7%96%91-%E6%83%8A%E6%82%9A/">
-                                    <span class="chip bg-color">悬疑 惊悚</span>
-                                </a>
-                            
-                                <a href="/tags/%E7%8A%AF%E7%BD%AA/">
-                                    <span class="chip bg-color">犯罪</span>
-                                </a>
-                            
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -625,9 +696,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2021/06/28/%E9%BB%91%E7%8B%97%EF%BC%81/">
                     <div class="card-image">
@@ -645,9 +717,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-06-28
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-28
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -656,6 +728,7 @@
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -666,31 +739,30 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/06/10/%E8%9A%82%E8%9A%81%E4%B8%8D%E4%BC%9A%E4%BF%9D%E6%8C%81%E7%BC%84%E9%BB%98/">
+                <a href="/2021/06/12/%E5%B0%8F%E7%A0%B4%E5%B1%8B/">
                     <div class="card-image">
                         
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="小破屋">
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="蚂蚁">
-                        
-                        <span class="card-title">蚂蚁</span>
+                        <span class="card-title">小破屋</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            蚂蚁排成一排，好像在做什么仪式？
+                            这不是一个人，而是有多个人一起，在小破屋..
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-10
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-12
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Markdown/" class="post-category">
-                                    Markdown
+                            <a href="/categories/%E6%81%90%E6%80%96/" class="post-category">
+                                    恐怖
                                 </a>
                             
                             
@@ -700,12 +772,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Typora/">
-                        <span class="chip bg-color">Typora</span>
+                    <a href="/tags/%E6%82%AC%E7%96%91-%E6%83%8A%E6%82%9A/">
+                        <span class="chip bg-color">悬疑 惊悚</span>
                     </a>
                     
-                    <a href="/tags/Markdown/">
-                        <span class="chip bg-color">Markdown</span>
+                    <a href="/tags/%E7%8A%AF%E7%BD%AA/">
+                        <span class="chip bg-color">犯罪</span>
                     </a>
                     
                 </div>
@@ -774,6 +846,100 @@
 
 <script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
 
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
 
     
 
